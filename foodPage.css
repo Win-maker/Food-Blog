@@ -1,0 +1,167 @@
+.navbar-brand{font-family:Arial, Helvetica, sans-serif;}
+.blogname{
+        background-image: linear-gradient(to left, yellow, rgb(233, 91, 8), rgb(179, 5, 5));
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bold;
+        font-size: 25px;
+      }
+.navbar-nav a{color:black;margin-left:10px;}
+.navbar-nav a:hover{padding-top:6px;background-color:#ee9a1b;border-radius: 5px;color:black;}
+
+.carousel-caption p{font-size: 25px;}
+
+.btn-warning{color:white;}
+
+.form-control{margin-left:10px;}
+
+.col1{border:1px solid rgb(190, 184, 184);}
+.col2{border:1px solid rgb(190, 184, 184);}
+
+.container-wrapper{overflow: hidden;width:100%;height:400px;}
+
+.slider{display: inline-block; overflow: hidden; }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+.slider1{display: flex;flex-direction: row;justify-content: center;
+        align-items: center;}
+
+.img{margin-left:25px;position:relative;}
+.order{color:#ee9a1b;font-weight: bold;}
+.img1{cursor: pointer;user-select: none;}
+
+.button-area{margin-left:600px;}
+
+.previous{margin-right:18px;padding:7px;border-radius: 50%;background-color:#ee9a1b;border:none;}
+.next{padding:7px;border-radius: 50%;background-color:#ee9a1b;border:none;outline: none;}
+
+.fa-arrow-left{font-size: 20px;color:white;}
+.fa-arrow-right{font-size: 20px;color:white;}
+
+.fa-arrow-left:hover{font-size: 23px;color:black;padding:8px;border-radius: 50%;transition: 0.5s;}
+.fa-arrow-right:hover{font-size: 23px;color:black;padding:8px;border-radius: 50%;transition: 0.5s;}
+
+.box{
+        width:200px;
+        box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+        border-radius: 10px;
+        overflow: hidden;
+        top: 150px;
+        left: 100px;
+     
+        transform: translate(-50%,-50%); 
+    }
+
+    .box{position: relative;cursor: pointer;
+        user-select: none;}
+    
+    .slide-img{
+        height: 200px;
+        position: relative;
+        
+    }
+    
+    .slide-img img{width:100%; height:100%;
+        object-fit: cover;box-sizing: border-box;
+    }
+
+    .detail-box{width: 100%; padding:10px 20px; box-sizing: border-box;font-family: calibri;}
+
+.type{display: flex; flex-direction: row; justify-content: space-between;align-items: center;}
+
+.overlay{position: absolute; z-index: 1;
+left:50%;
+top:50%;
+transform:translate(-50%,-50%);
+width:45%;height:30px;background-color: rgb(236, 139, 12);
+border-radius: 6px;text-align: center;
+visibility: hidden;}
+
+.overlay a{text-decoration: none;color:white;}
+
+.box:hover .overlay{visibility: visible;}
+
+
+
+.slider1{display: flex;flex-direction: row; justify-content:space-between;align-items: center;}
+
+.menu{width: 100%; height: 300px;position: relative;}
+
+.slider2{display: none;}
+.slider3{display: none;}
+.slider4{display: none;}
+
+.button-gp{display: flex;justify-content: center;align-items: center;}
+.btn-select{background-color:white;width:15px;height:15px; margin-left:15px;
+cursor: pointer;user-select: none;border-radius: 50%;border:none;color:#ee9a1b}
+
+.col-border{box-shadow: 2px 2px 30px rgba(235, 217, 217, 0.2);
+    border-radius: 10px;}
+
+.chooseFood{width: 70px;height: 70px;border-radius: 50%;}
+
+.delivery{width: 70px;height: 70px;border-radius: 50%;}
+.delivery1{margin-left:75px;margin-top:40px;}
+
+.cash{width: 70px;height: 70px;border-radius: 50%;}
+.cash1{margin-left: 150px;margin-top:40px;}
+
+.enjoyFood{width: 70px;height: 70px;border-radius: 50%;}
+.enjoyFood1{margin-left:210px;margin-top:40px;}
+
+.firstRow{display: flex;justify-content:space-around;align-items: center;}
+.first{width:250px;height:250px;border-radius: 15px;}
+.firstPerson{width:250px;height: 200px;background-color:#faab35;display: flex;flex-direction: column;
+justify-content:center;align-items: center;border-radius: 15px;}
+.second{width: 250px;height: 200px;border-radius: 15px;}
+.secondPerson{width:250px;height: 200px;background-color:#faab35;display: flex;flex-direction: column;
+justify-content: center;align-items: center;border-radius: 15px;}
+
+.secondRow{display: flex;justify-content: space-around;align-items: center;}
+.third{width: 250px;height: 200px;border-radius: 15px;}
+.thirdPerson{width:250px;height: 200px;background-color:#faab35;display: flex;flex-direction: column;
+    justify-content:center;align-items: center;border-radius: 15px;}
+.fourth{width:250px;height:250px;border-radius: 15px;}
+.fourthPerson{width:250px;height: 200px;background-color:#faab35;display: flex;flex-direction: column;
+    justify-content: center;align-items: center;border-radius: 15px;}
+
+
+.person{width: 70px;height: 70px;border-radius: 50%;}
+
+.hideMenu{display: none;width: 250px;height:250px;}
+.hideMenu1{display: none;width: 250px;height:250px;}
+.hideMenu2{display: none;width: 250px;height:250px;}
+.hideMenu3{display: none;width: 250px;height:250px;}
+
+.favMenu{display: flex;flex-direction: column;justify-content: center;align-items: center;
+background-color:gainsboro;box-shadow: 2px 2px 30px rgba(0,0,0,0.2);border-radius:15px;
+transition: all 1.5s;}
+.favMenuImg{width:150px;height:150px;border-radius: 50%;}
+
+.fa-xmark{color:black;font-size: 20px;margin-left:180px;margin-top:10px;cursor: pointer;
+user-select: none;}
+
+.lastContainer{height: 350px;}
+.orderImg{width:400px;height:300px;border-radius: 5px;}
+
+.address{height: 100px;margin-left:20px;width: 600px;}
+
+.lastOrderbtn{width:120px;margin-left:20px;}
+
+.wrongEmailClass{font-size: 12px;color:red;}
+.nameTagClass{font-size: 12px;color:red;}
+.foodClass{font-size: 12px;color:red;}
+.addressClass{font-size: 12px;color:red;}
+.phClass{font-size: 12px;color:red;}
+
+
+
+.footer{height:100px;background-color:gainsboro;box-shadow: 2px 2px 30px rgba(0,0,0,0.2);}
+
+
+body{background-color: rgb(243, 243, 240);}
+.chiefLogo{width:50px;height: 50px;border-radius: 50%;margin-right: 14px;}
+
+.footer{height:100px;}
+.iconFooter{display: flex;flex-direction: row; justify-content:space-around;align-items: center;}
